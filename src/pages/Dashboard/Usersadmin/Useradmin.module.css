@@ -1,0 +1,120 @@
+.dashboard_container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.form_group {
+  margin-bottom: 20px;
+}
+
+.form_group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form_group input,
+.form_group select {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #db0000;
+  border-radius: 5px;
+}
+
+.form_group select {
+  cursor: pointer;
+  width: 100%;
+}
+.form_group label {
+  color: #db0000;
+}
+
+.register_button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.register_button:hover {
+  background-color: #388e3c;
+}
+
+.user_list_container h2 {
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  color: #db0000;
+}
+
+.user_list_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user_list_table th,
+.user_list_table td {
+  border: 1px solid #db0000;
+  padding: 8px;
+}
+
+.user_list_table th {
+  background-color: #f2f2f2;
+}
+
+.user_list_table tbody tr {
+  background-color: #f2f2f2;
+}
+
+.update_user_container {
+  margin-top: 20px;
+}
+.update_user_container h2 {
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  color: #db0000;
+}
+
+.update_form input[type="text"],
+.update_form input[type="email"],
+.update_form select {
+  width: 98%;
+  padding: 10px;
+  border: 1px solid #db0000;
+  border-radius: 5px;
+}
+.update_form select {
+  width: 100%;
+}
+.update_button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.update_button:hover {
+  background-color: #388e3c;
+}
+.delete_button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.delete_button:hover {
+  background-color: #d32f2f;
+}
+.h2_font {
+  padding: 2rem 0rem;
+  font-size: 2rem;
+  color: #db0000;
+}

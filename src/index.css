@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000000;
+  background-image: url("src/assets/images/movie-1920X1080-wallpaper-z0puq43u0qbtr6j2.jpeg");
+}
+
+#root {
+  margin: 0 auto;
+  max-width: 1600px;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+}
+
+b {
+  color: #141718;
+  font-weight: 600;
+  line-height: 1.625rem;
+}

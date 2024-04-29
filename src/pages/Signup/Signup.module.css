@@ -1,0 +1,64 @@
+.signup_container {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+.signup_header h1 {
+  font-family: "Netflix Sans", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: #db0000;
+  text-align: center;
+}
+.signup_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.signup_form label {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+.signup_form input {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.signup_form button {
+  padding: 10px;
+  font-size: 18px;
+  background-color: #db0000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup_form button:hover {
+  background-color: #b2070e;
+}
+.error {
+  color: red;
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .signup_container {
+    width: 300px;
+  }
+}

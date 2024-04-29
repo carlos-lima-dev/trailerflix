@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #db0000;
+  border-radius: 5px;
+}
+
+.poster {
+  height: auto;
+  border-radius: 5px 0 0 5px;
+}
+
+.cardContent {
+  padding: 20px;
+}
+
+.cardContent p {
+  color: #fff;
+  text-align: center;
+}
+
+.cardContent h2 {
+  margin-top: 0;
+}
+@media (max-width: 768px) {
+  .cardContent {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,39 @@
+/* CSS */
+.missing_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.missing_content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  color: #fff;
+}
+
+.missing_title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.missing_text {
+  font-size: 1rem;
+}
+
+.return_to_home {
+  color: #b2070e;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.return_to_home p {
+  color: #b2070e;
+  cursor: pointer;
+}
+
+.return_to_home:hover {
+  text-decoration: none;
+}
