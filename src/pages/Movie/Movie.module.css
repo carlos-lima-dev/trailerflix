@@ -3,6 +3,9 @@
   color: #fff;
   padding: 2rem 0.5rem;
   min-height:100vh;
+  padding: 2rem 3rem;
+  max-width:1300px;
+  margin:0 auto;
 }
 
 .container h2 {
