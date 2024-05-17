@@ -5,6 +5,8 @@
   align-items: center;
   height: 100vh;
   background-color: #000000;
+  max-width:1300px ;
+  margin:0 auto; 
 }
 
 .missing_content {
