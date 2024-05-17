@@ -79,6 +79,10 @@
   .trailer {
     grid-template-columns: 1fr;
   }
+  .container {
+  padding: 1rem 1rem;
+ 
+}
 
   .container p {
     display: flex;
