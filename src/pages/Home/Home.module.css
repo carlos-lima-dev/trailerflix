@@ -210,6 +210,13 @@
   .headerSort {
     flex-direction: column;
   }
+  .header {
+  padding: 1rem 0rem;
+}
+  .footer {
+  padding: 1rem 0rem;
+  
+}
   .errorMessage p:nth-child(1) {
     font-size: 2rem;
   }
